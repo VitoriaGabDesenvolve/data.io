@@ -1,5 +1,116 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-shadow: 0;
+    box-shadow: none;
+    font-family: 'poppins-extralight', 'poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url('/imgs/capa-header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vw;
+}
+
+header .menu, header .marca, header .menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu {
+    margin-right: 5.2vw;
+}
+
+header .marca {
+    margin-left: 4vw;
+    font-size: 1.8vw;
+    font-weight: 550;
+}
+
+header .lista-menu > li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+header .lista-menu > li:first-child a {
+    color: #D25454;
+}
+
+header .lista-menu {
+    font-size: 1vw;
+}
+
+header .link-menu:hover {
+    color: #D25454;
+    transition: 1s;
+}
+
+header .botao-menu {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6.5px;
+    height: 3.3vw;
+    width: 8.8vw;
+    color: white;
+}
+
+header .botao-menu:hover {
+    background-color: #889CE7;
+    border: 1px solid #889CE7;
+    transition: 100ms;
+    color: #262936;
+    cursor: pointer;
+}
+
+header nav {
+    height: 10%;
+}
+
+header .icone-empresa > img {
+    width: 4.7vw;
+}
+
+header .slogan {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: white;
+    padding-left: 5vw;
+    gap: 3vw;
+    margin-top: 3vw;
+}
+
+header .slogan > h1 {
+    font-size: 6vw;
+    font-family: 'poppins-extralight', 'poppins', sans-serif;
+    font-weight: 100;
+}
+
+header .slogan > h2 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+header .botao-saiba-mais {
+    background-color: #D25454;
+    color: #262936;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 15%;
+    height: 4vw;
+}
+
+header .botao-saiba-mais:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 100ms;
 }
