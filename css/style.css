@@ -15,7 +15,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 65vw;
+    height: 90vw;
 }
 
 header .menu, header .marca, header .menus {
@@ -85,7 +85,7 @@ header .slogan {
     color: white;
     padding-left: 5vw;
     gap: 3vw;
-    margin-top: 3vw;
+    margin-top: 6vw;
 }
 
 header .slogan > h1 {

@@ -1,0 +1,72 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #141416;
+}
+
+.section-cards{
+    display: flex;
+    width: 90%;
+    height: 55vw;
+    margin-top: 8vw;
+    
+}
+
+.texto-impulsione{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    color: white;
+    border: 1px solid #3F4349;
+    background-image: url("/imgs/capa-section-cards.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-texto{
+    width: 70%;
+    gap: 3vw;
+}
+
+.container-texto > p{
+    color: #878787;
+    line-height: 2;
+}
+
+.container-texto > h1{
+    font-weight: 300;
+    font-size: 2.3vw;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    border: 1px solid #3F4349;
+    border-left: none;
+    display: flex;
+
+}
+
+.card{
+    background-color: #1B1C1E;
+    width: 20vw;
+    height: 24vw;
+
+}
+
+.dupla-card{
+    gap: 2vw;
+}
+
+
+.texto-card > h1 {
+    color: #889CE7
+}
+
